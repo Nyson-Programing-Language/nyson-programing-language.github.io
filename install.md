@@ -14,7 +14,7 @@
 
 ## Self compile
 ```shell
-git clone https://github.com/Nyelsonon/nyson-programming-language.git
+git clone https://github.com/Nyson-Programing-Language/nyson-programming-language.git
 cd nyson-programming-language
 cargo build --release
 cd target/release
@@ -24,13 +24,13 @@ it will be called Nyson
 
 ## Linux or Mac
 ```shell
-curl "https://raw.githubusercontent.com/Nyelsonon/nyson-programming-language/main/startup.sh" | sh
+curl "https://raw.githubusercontent.com/Nyson-Programing-Language/nyson-programming-language/main/startup.sh" | sh
 ```
 
 ## Windows
 (have to run in cmd)
 ```shell
-curl "https://raw.githubusercontent.com/Nyelsonon/nyson-programming-language/main/startup.bat" -o startup.bat && .\startup.bat && del .\startup.bat
+curl "https://raw.githubusercontent.com/Nyson-Programing-Language/nyson-programming-language/main/startup.bat" -o startup.bat && .\startup.bat && del .\startup.bat
 ```
 
 ## IF YOU GET A ERROR TALKING ABOUT LINX.EXE READ THIS
