@@ -121,6 +121,7 @@ log(trim("        Hello      "));
 will give "Hello"
 
 ## Import
+### File
 FILE: hello.nys
 ```
 func(sayhello()) {
@@ -133,6 +134,12 @@ imp("hello.nys")
 sayhello()
 ```
 Returns: hello
+
+### Url
+```
+imp("https://raw.githubusercontent.com/Nyson-Programing-Language/nyson-programming-language/main/examples/Loading%20Bar.nys");
+```
+plays a loading bar
 
 ## Read Files
 ```
