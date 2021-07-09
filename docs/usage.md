@@ -6,11 +6,25 @@ nyson test.nys
 you might have to change the word nyson to your nyson file location and change test.nys to any file you want that has the .nys ending
 
 ## Print
+To print strings in Nyson, simply use the log() function. The log() function can merge vars, ints, and strs innto a single line of text.
 ```
 log("hello world");
 ```
+Merging strs and vars requires adding a space between the two paramters, as so:
+```
+dec str world : "world";
+
+log("hello" world)
+```
+log() can concatenate ints and strs into text, and will give no resulting errors even when an int variable is not converted to a str type.
+```
+dec int age : 14;
+
+log("I am " age " years old!"
+```
 
 ## Math
+The math function allows for powerful operations and can be used in other built in functions such as log(); math can also be used in variables to declare values.
 ```
 log(math(5+5));
 ```
