@@ -27,6 +27,8 @@ log("I am " age " years old!"
 The math function allows for powerful operations and can be used in other built in functions such as log(); math can also be used in variables to declare values.
 ```
 log(math(5+5));
+
+dec int age_2 = math(10+4);
 ```
 
 ## Loop
