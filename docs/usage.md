@@ -5,7 +5,7 @@ nyson test.nys
 ```
 you might have to change the word nyson to your nyson file location and change test.nys to any file you want that has the .nys ending
 
-## Print
+## Print/Log
 To print strings in Nyson, simply use the log() function. The log() function can merge vars, ints, and strs innto a single line of text.
 ```
 log("hello world");
