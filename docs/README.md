@@ -1,7 +1,7 @@
 # Nyson Programming Language
 The official home of the Nyson Programming Language, built off Rust.
 
-![Logo](https://raw.githubusercontent.com/Nyson-Programing-Language/nyson-programming-language/main/Logos/NysonLogo.png)
+![Logo](https://raw.githubusercontent.com/Nyson-Programing-Language/nyson-programming-language/main/Logos/LogoNyson.png)
 
 
 Contributors:
