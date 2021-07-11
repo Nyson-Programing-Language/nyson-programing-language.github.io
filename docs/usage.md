@@ -218,3 +218,13 @@ gets something like `1625968295221`
 log(timeh());
 ```
 gets something like `2021-07-11 01:51:35.221000000`
+
+## While loops
+```
+dec int age: 14;
+while(age < "18") {
+    log("to young");
+    age = math(age+1);
+}
+```
+will say `to young` 4 times
