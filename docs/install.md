@@ -15,7 +15,7 @@
 ## Self compile
 ```shell
 git clone https://github.com/Nyson-Programing-Language/nyson-programming-language.git
-cd nyson-programming-language
+cd nyson
 cargo build --release
 cd target/release
 ```
@@ -29,6 +29,20 @@ curl "https://raw.githubusercontent.com/Nyson-Programing-Language/nyson-programm
 
 ## Windows
 (have to run in cmd)
+with git & cargo:
+```
+cd ~
+git clone https://github.com/Nyson-Programing-Language/nyson.git
+cd nyson
+cargo build --release
+```
+to compile in rust simply run cargo run in code dir as so:
+cargo run {path of nys file to run}
+
+to compile anywhere add "C:\Users\%username%\Nyson\target\release" PATH and run as so:
+nyson {path of nys file to run}
+
+with cURL:
 ```shell
 curl "https://raw.githubusercontent.com/Nyson-Programing-Language/nyson-programming-language/main/startup.bat" -o startup.bat && .\startup.bat && del .\startup.bat
 ```
