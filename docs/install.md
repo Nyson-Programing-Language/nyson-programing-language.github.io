@@ -37,10 +37,10 @@ cd nyson
 cargo build --release
 ```
 to compile in rust simply run cargo run in code dir as so:
-cargo run {path of nys file to run}
+``cargo run {path of nys file to run}``
 
-to compile anywhere add "C:\Users\%username%\Nyson\target\release" PATH and run as so:
-nyson {path of nys file to run}
+to compile anywhere add "C:\Users\%username%\Nyson\target\release" to PATH and run as so:
+``nyson {path of nys file to run}``
 
 with cURL:
 ```shell
