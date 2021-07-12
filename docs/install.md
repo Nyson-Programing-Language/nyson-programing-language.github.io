@@ -47,7 +47,8 @@ with cURL:
 curl "https://raw.githubusercontent.com/Nyson-Programing-Language/nyson-programming-language/main/startup.bat" -o startup.bat && .\startup.bat && del .\startup.bat
 ```
 
-## IF YOU GET A ERROR TALKING ABOUT LINX.EXE READ THIS
+## IMPORTANT:
+## IF YOU GET A ERROR TALKING ABOUT LINK.EXE READ THIS
 so if you get a error looking like this
 \
 ![error](https://i.imgur.com/8f8OQYb.png)
