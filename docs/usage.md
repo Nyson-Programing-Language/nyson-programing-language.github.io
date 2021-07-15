@@ -228,3 +228,18 @@ while(age < "18") {
 }
 ```
 will say `to young` 4 times
+
+## Exit
+```
+log("1");
+exit();
+log("2");
+```
+will say `1` and not the 2
+
+## Eval
+```
+dec str helloworld: "log('hello world')";
+eval(helloworld);
+```
+will say `hello world`
