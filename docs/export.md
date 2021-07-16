@@ -7,8 +7,8 @@ do `nyson "examples/Loading Bar.nys" -compile` you will get a file called `nyson
 
 ### Steps
 
-1. make a directory called something like `{name}.AppImage`
-2. run `cd {name}.AppImage`
+1. make a directory called something like `{name}.AppDir`
+2. run `cd {name}.AppDir`
 3. make a file called `AppRun` with the code 
 ```
 #!/bin/sh
