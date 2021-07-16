@@ -16,7 +16,7 @@ do `nyson "examples/Loading Bar.nys" -compile` you will get a file called `nyson
 cd "$(dirname "$0")"
 exec ./nysonProgram
 ```
-3. make a file called `{name}.desktop` with the code
+4. make a file called `{name}.desktop` with the code
 ```
 [Desktop Entry]
 Name={name}
@@ -25,8 +25,8 @@ Icon=Logo
 Type=Application
 Categories={categories example "Utility"}
 ```
-4. make a image called `Logo.png` with the width and height of 256 (can also take any image and run `convert {image path} -resize 256x256 Logo.png`)
-5. compile your program like from [here](https://nyson-programing-language.github.io/#/export?id=how-to-export-normally) and copy the nysonProgram to this directory
-6. run `chmod +x AppRun *.desktop nysonProgram`
-7. run `cd ..`
-8. then run `{AppImage Tools appimage location} {name}.AppDir`
+5. make a image called `Logo.png` with the width and height of 256 (can also take any image and run `convert {image path} -resize 256x256 Logo.png`)
+6. compile your program like from [here](https://nyson-programing-language.github.io/#/export?id=how-to-export-normally) and copy the nysonProgram to this directory
+7. run `chmod +x AppRun *.desktop nysonProgram`
+8. run `cd ..`
+9. then run `{AppImage Tools appimage location} {name}.AppDir`
