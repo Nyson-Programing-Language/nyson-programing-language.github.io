@@ -243,3 +243,25 @@ dec str helloworld: "log('hello world')";
 eval(helloworld);
 ```
 will say `hello world`
+
+## Arrays
+```
+dec arr names : ["neal", "nick", "arthur"];
+```
+It can also be declare as so:
+```
+dec arr names : "neal", "nick", "arthur;
+```
+
+### Accesing Array Indexes
+```
+log(names(1));
+```
+
+### Append and Cutting
+```
+// cutting
+cut(names, 1);
+//appending
+append(names, "lucy");
+```
