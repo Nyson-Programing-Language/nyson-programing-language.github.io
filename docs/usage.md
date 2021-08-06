@@ -187,17 +187,24 @@ dec str name: input();
 log("Hello, " name);
 ```
 
-## GET Request
+## Request
+### GET
 ```
-dec str code: GET("https://www.rust-lang.org/");
+dec str code: request("GET", "https://www.rust-lang.org/");
 log("Rust Website code: " code);
 ```
 
-## POST Request
+### POST
 ```
-POST("https://amtitan.free.beeceptor.com", "bob the builder");
+request("POST", "https://amtitan.free.beeceptor.com", "bob the builder");
 ```
-this sends "bob the builder" to my beeceptor
+this sends "bob the builder" to beeceptor
+
+### Headers
+```
+request("POST", "https://amtitan.free.beeceptor.com", "{\"name\":\"nyson\"}", "Content-Type: application/json");
+```
+this sends '{"name":"nyson"}' to beeceptor with the header of content-type equal to application/json
 
 ## Music
 ```
