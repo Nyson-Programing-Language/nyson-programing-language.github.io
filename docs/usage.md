@@ -272,3 +272,55 @@ cut(names, 1);
 //appending
 append(names, "lucy");
 ```
+## OS
+
+### Get Operating System
+```
+log(os());
+```
+will return one of these
+
+
+    linux
+    macos
+    ios
+    freebsd
+    dragonfly
+    netbsd
+    openbsd
+    solaris
+    android
+    windows
+
+### Get Total Ram
+
+```
+log(os.total_memory());
+```
+
+well return the total amount of ram in kb
+
+### Get Used Ram
+
+```
+log(os.used_memory());
+```
+
+well return the ammount of ram used in kb
+
+### Get Total Swap
+
+```
+log(os.total_swap());
+```
+
+well return the total ammount of swap in kb
+
+
+### Get Used Swap
+
+```
+log(os.used_swap());
+```
+
+well return the ammount of swap used in kb
