@@ -327,4 +327,4 @@ well return the ammount of swap used in kb
 
 ## Args
 
-you can do `arg(0)` this will return the first arg (will be your .nys file or `run`)
+you can do `arg(0)` this will return the first arg (will be the nyson)
