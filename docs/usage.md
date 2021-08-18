@@ -328,3 +328,21 @@ well return the ammount of swap used in kb
 ## Args
 
 you can do `arg(0)` this will return the first arg (will be the nyson)
+
+## First
+```
+log(first(["bob". "the", "builder"]));
+```
+this will print bob
+
+## Last
+```
+log(last(["bob". "the", "builder"]));
+```
+this will print builder
+
+## Length
+```
+log(length(["bob". "the", "builder"]));
+```
+this will print 3
