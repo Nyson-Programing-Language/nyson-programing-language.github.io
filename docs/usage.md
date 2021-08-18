@@ -97,10 +97,10 @@ sayHello();
 #### With Variables
 ```
 dec str name: "bob";
-func(sayHello()) {
-    log("hello " name);
+func(sayHello(names)) {
+    log("hello " names);
 }
-sayHello();
+sayHello(name);
 ```
 
 ## If Statements
