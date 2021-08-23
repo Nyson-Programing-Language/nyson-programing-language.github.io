@@ -208,6 +208,7 @@ this sends '{"name":"nyson"}' to beeceptor with the header of content-type equal
 
 ## Music
 ```
+use audio;
 audio("doom.mp3");
 sleep(9325);
 log("DROP");
@@ -276,6 +277,7 @@ append(names, "lucy");
 
 ### Get Operating System
 ```
+use os;
 log(os());
 ```
 will return one of these
@@ -295,6 +297,7 @@ will return one of these
 ### Get Total Ram
 
 ```
+use os;
 log(os.total_memory());
 ```
 
@@ -303,6 +306,7 @@ well return the total amount of ram in kb
 ### Get Used Ram
 
 ```
+use os;
 log(os.used_memory());
 ```
 
@@ -311,6 +315,7 @@ well return the ammount of ram used in kb
 ### Get Total Swap
 
 ```
+use os;
 log(os.total_swap());
 ```
 
@@ -320,6 +325,7 @@ well return the total ammount of swap in kb
 ### Get Used Swap
 
 ```
+use os;
 log(os.used_swap());
 ```
 
