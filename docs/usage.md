@@ -352,3 +352,16 @@ this will print builder
 log(length(["bob", "the", "builder"]));
 ```
 this will print 3
+
+## Split
+```
+log(last(split("hi, how are you?", ",")));
+```
+this will print ` how are you?`
+
+## Split Keep
+```
+dec arr splitz = splitK("hi, how are you?", ",");
+log(splitz(2));
+```
+this will print `,`
