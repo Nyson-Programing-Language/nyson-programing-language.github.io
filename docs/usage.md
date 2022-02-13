@@ -365,3 +365,28 @@ dec arr splitz = splitK("hi, how are you?", ",");
 log(splitz(2));
 ```
 this will print `,`
+
+## Time
+
+### System Time
+```
+log(time());
+```
+this will return the system time in a unix timestamp
+
+### Internet Time
+```
+log(internet_time());
+```
+this will return the time from `time.nist.gov:13`
+
+### Human Readable Time
+```
+log(timeh("", time()));
+```
+this will return `52years 1month 13days 7h 9m 39s 145ms`
+
+```
+log(timeh("true", "%Y-%m-%d %H:%M:%S.%f"));
+```
+this will return `2022-02-13 17:43:15.145000000`
