@@ -233,13 +233,6 @@ log("2");
 ```
 will say `1` and not the 2
 
-## Eval
-```
-dec str helloworld: "log('hello world')";
-eval(helloworld);
-```
-will say `hello world`
-
 ## Arrays
 ```
 dec arr names : ["neal", "nick", "arthur"];
