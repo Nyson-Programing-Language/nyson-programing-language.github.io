@@ -371,3 +371,54 @@ this will return `52years 1month 13days 7h 9m 39s 145ms`
 log(timeh("true", "%Y-%m-%d %H:%M:%S.%f"));
 ```
 this will return `2022-02-13 17:43:15.145000000`
+
+## Color
+
+```
+use term;
+log(red "this will be red!");
+```
+### All the different types are:
+- reset
+- bold
+- dim
+- italic
+- underline
+- blinking
+- reverse
+- invisible
+- strikethrough
+- black
+- red
+- green
+- yellow
+- blue
+- magenta
+- cyan
+- white
+- default
+- background_black
+- background_red
+- background_green
+- background_yellow
+- background_blue
+- background_magenta
+- background_cyan
+- background_white
+- background_default
+- bright_black
+- bright_red
+- bright_green
+- bright_yellow
+- bright_blue
+- bright_magenta
+- bright_cyan
+- bright_white
+- bright_background_black
+- bright_background_red
+- bright_background_green
+- bright_background_yellow
+- bright_background_blue
+- bright_background_magenta
+- bright_background_cyan
+- bright_background_white
