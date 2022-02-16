@@ -378,6 +378,11 @@ this will return `2022-02-13 17:43:15.145000000`
 use term;
 log(red "this will be red!");
 ```
+you can also use multipul things at once
+```
+use term;
+log(red blinking "this will be red and also blinking!");
+```
 ### All the different types are:
 - reset
 - bold
